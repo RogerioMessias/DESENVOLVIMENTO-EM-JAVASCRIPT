@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade JS operadores </title>
+</head>
+<body>
+    <h1>Atividade JS operadores</h1>
+        <script>
+        // exercicio 1
+        var numero1 = prompt('Digite um número inteiro: ');
+        var numero2 = prompt('Digite outro número inteiro: ');
+        console.log(parseInt(numero1) + parseInt(numero2));
+
+        // exercicio 2
+        var numero1 = prompt('Digite um número inteiro: ');
+        var numero2 = prompt('Digite outro número inteiro');
+        console.log(parseInt(numero1) - parseInt(numero2));
+
+        // exercicio 3
+        var numero1 = prompt('Digite um número inteiro: ');
+        var numero2 = prompt('Digite outro número inteiro');
+        console.log(parseInt(numero1) * parseInt(numero2))
+
+        // exercicio 4
+        var numero1 = prompt('Digite um número inteiro: ');
+        var numero2 = prompt('Digite outro número inteiro');
+        console.log(parseFloat(numero1) / parseFloat(numero2));
+
+        // exercicio 5
+        var numero1 = prompt('Digite um número inteiro: ');
+        var numero2 = prompt('Digite outro número inteiro');
+        console.log(parseFloat(numero1) % parseFloat(numero2))
+
+        // exercicio 6
+        var numero = prompt('Digite um número para saber o sucessor: ');
+        console.log('O antecessor de ', parseInt(numero), 'é', numero + 1); 
+
+        // exercicio 7
+        var numero = prompt('Digite um número para saber o antecessor: ');
+        console.log('O antecessor de ', parseInt(numero), 'é', numero - 1); 
+            
+            
+        // exercicio 8
+        var numero1 = prompt('Digite o 1° número: ');
+        var numero2 = prompt('Digite o 2° número: ');
+        var numero3 = prompt('Digite o 3° número: ');
+        console.log(parseInt(numero1) + parseInt(numero2) + parseInt(numero3));
+
+        // exercicio 9
+        var numero1 = prompt('Digite o 1° número: ');
+        var numero2 = prompt('Digite o 2° número: ');
+        var numero3 = prompt('Digite o 3° número: ');
+        console.log((parseFloat(numero1) + parseFloat(numero2) + parseFloat(numero3))/3);
+
+            
+
+        // exercicio 10 *
+        var raio = prompt('informe o raio: ')
+        var pi = 3.14
+        var area = (pi * raio**2)
+        console.log(parseint(area))
+            
+        // exercicio 11 
+        var idade = prompt('informe a idade: ');
+        var maiorIdade = idade >= 18
+        var menorIdade = idade < 18
+        console.log(maiorIdade, menorIdade)
+
+        // exercicio 12
+        var numero = prompt('Digite um número: ');
+        var numPositivo = parseInt(numero) > 0;
+        var numNegativo = parseInt(numero) < 0;
+        var numeroZero = parseInt(numero) == 0;
+
+        console.log(numNegativo, numPositivo,numeroZero)
+
+        // exercicio 13
+        var numero = prompt("Digite um número: ");
+        var numeroPar = (numero % 2 == 0);
+        console.log(numeroPar)
+
+        // exercicio 14
+        var numero1 = prompt('Digite o 1° número: ')
+        var numero2 = prompt('Digite o 2° número: ')
+        var maiorNumero = numero1 > numero2
+        console.log(maiorNumero)
+
+        // exercicio 15
+        var numero = prompt('Digite um número: ')
+        var numeroverdadeiro = (numero >= 10) && (numero <= 20);
+        console.log(numeroverdadeiro)
+
+
+        
+
+        </script>
+    
+</body>
+</html>
